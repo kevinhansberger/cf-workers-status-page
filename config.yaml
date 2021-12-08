@@ -15,25 +15,74 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: workers-cloudflare-com # unique identifier
-    name: workers.cloudflare.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+  - id: sagemedia-co
+    name: sagemedia.co
+    description: 'Sage Media'
+    url: 'https://sagemedia.co'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
-
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+        
+  - id: humanesocietyofthedunes-com
+    name: humanesocietyofthedunes.com
+    description: 'Humane Society of the Dunes'
+    url: 'https://humanesocietyofthedunes.com'
     method: GET
     expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+    
+  - id: cfpropertydevelopment-com
+    name: cfpropertydevelopment.com
+    description: 'CF Property Development'
+    url: 'https://cfpropertydevelopment.com'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+        
+  - id: cullermedia-com
+    name: cullermedia.com
+    description: 'Culler Media'
+    url: 'https://cullermedia.com'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+        
+  - id: reimarketingbook-com
+    name: reimarketingbook.com
+    description: 'REI Marketing Book'
+    url: 'https://reimarketingbook.com'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+        
+  - id: reimarketingweekly-com
+    name: reimarketingweekly.com
+    description: 'REI Marketing Weekly'
+    url: 'https://reimarketingweekly.com'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+        
+  - id: mikeandrade-com
+    name: mikeandrade.com
+    description: 'Mike Andrade'
+    url: 'https://mikeandrade.com'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+        
+  - id: laportecountydems-com
+    name: laportecountydems.com
+    description: 'La Porte County Indiana Democrats'
+    url: 'https://laportecountydems.com'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+        
+  - id: jimwieser-com
+    name: jimwieser.com
+    description: 'Jim Wieser'
+    url: 'https://jimwieser.com'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
